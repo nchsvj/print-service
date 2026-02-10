@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --banner-h: auto;
+    --border-radius: 8px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.1);
+    --transition: all 0.2s ease;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.4;
+}
+
+/* Контейнеры */
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 16px;
+    margin: 10px auto;
+}
+
+.container-sm { max-width: 600px; }
+.container-md { max-width: 800px; }
+
+/* Отступы */
+.m-0 { margin: 0; }
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }
+.mb-10 { margin-bottom: 10px; }
+.mb-20 { margin-bottom: 20px; }
+.p-10 { padding: 10px; }
+.p-20 { padding: 20px; }
+
+/* Выравнивание */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+/* Flex */
+.flex { display: flex; }
+.flex-column { flex-direction: column; }
+.justify-center { justify-content: center; }
+.align-center { align-items: center; }
+.gap-10 { gap: 10px; }
+.gap-20 { gap: 20px; }
+
+/* Сетка */
+.grid { display: grid; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.gap-16 { gap: 16px; }
+
+/* Видимость */
+.hidden { display: none; }
+.visible { display: block; }

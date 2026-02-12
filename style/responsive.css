@@ -121,3 +121,23 @@
         font-size:.95rem;
     }
 }
+
+@media (max-width:768px){
+    .img-banner-block{
+        height:420px;
+    }
+    .banner-title{
+        font-size:2.6rem;
+    }
+}
+@media (max-width:480px){
+    .img-banner-block{
+        height:360px;
+    }
+    .banner-title{
+        font-size:2.15rem;
+    }
+    .banner-subtitle{
+        font-size:.95rem;
+    }
+}

@@ -21,7 +21,7 @@ body {
     max-width: 100%;
     width: 100%;
     padding: 0 16px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .container-sm { max-width: 600px; }

@@ -1,97 +1,123 @@
-/* Desktop: 1024px и выше */
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1134px;
-    }
-
-    /* Утилиты для десктопа */
-    .lg\:container-wide { max-width: 1200px; }
-}
-
-@media (max-width: 768px) {
-    .container {
-        max-width: 720px;
-        padding: 0 20px;
-    }
-
-    .content-1.container {
-        padding: 0 20px;
-    }
-
-    .text-banner-1 h1 {
-        font-size: 1.8rem;
-        margin-bottom: 14px;
-        line-height: 1.15;
-    }
-
-    .text-banner-1 p {
-        font-size: 1rem;
-        margin-bottom: 12px;
-        line-height: 1.55;
-    }
-
-    .service-btn {
-        display: none;
-    }
-
-    /* Утилиты для планшетов */
-    .md\:text-left { text-align: left; }
-    .md\:flex-row { flex-direction: row; }
-}
-
-/* Маленькие телефоны: до 480px */
-@media (max-width: 480px) {
-    .container {
-        padding: 0 12px;
-    }
-
-    .p-20 {
-        padding: 16px;
-    }
-
-    .mb-20 {
-        margin-bottom: 16px;
-    }
-
-    .logo, .logo img {
-        height: 50px;
-    }
-
-    .header-btn {
-        font-size: 1rem;
-    }
-
-    .content-1.container {
-        padding: 0 12px;
-    }
-
-    .text-banner-1 {
-        margin-top: 0;
-    }
-
-    .text-banner-1 h1 {
-        font-size: 1.55rem;
-        margin-bottom: 12px;
-        line-height: 1.15;
-    }
-
-    .text-banner-1 p {
-        font-size: 0.98rem;
-        margin-bottom: 10px;
-        line-height: 1.5;
-    }
-
-    .text-banner-1 b {
-        font-weight: 700;
+@media (min-width:1280px){
+    .container{
+        max-width:1200px;
     }
 }
-
-@media (max-width: 420px) {
-    .text-banner-1 h1 {
-        font-size: 1.4rem;
+@media (min-width:1024px){
+    .container{
+        max-width:1134px;
     }
-
-    .text-banner-1 p {
-        font-size: 0.95rem;
+}
+@media (max-width:1023px){
+    .header{
+        align-items:center;
+        gap:12px;
+    }
+    .header-btns{
+        align-items:center;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:18px;
+    }
+    .header-btn{
+        font-size:1rem;
+    }
+    .content-1{
+        margin-top:56px;
+    }
+}
+@media (max-width:768px){
+    .container{
+        max-width:720px;
+        padding:0 20px;
+    }
+    .header{
+        flex-wrap:wrap;
+        justify-content:center;
+        text-align:center;
+    }
+    .logo{
+        width:100%;
+        justify-content:center;
+    }
+    .header-btns{
+        width:100%;
+        justify-content:center;
+        gap:16px;
+        padding-top:6px;
+    }
+    .header-btn{
+        text-decoration: underline;
+        text-underline-offset: 6px;
+    }
+    .content-1.container{
+        padding:0 20px;
+    }
+    .text-banner-1 h1{
+        font-size:1.8rem;
+        margin-bottom:14px;
+        line-height:1.15;
+    }
+    .text-banner-1 p{
+        font-size:1rem;
+        margin-bottom:12px;
+        line-height:1.55;
+    }
+    .service-btn{
+        display:none;
+    }
+    .md\:text-left{
+        text-align:left;
+    }
+    .md\:flex-row{
+        flex-direction:row;
+    }
+}
+@media (max-width:480px){
+    .container{
+        padding:0 12px;
+    }
+    .p-20{
+        padding:16px;
+    }
+    .mb-20{
+        margin-bottom:16px;
+    }
+    .logo,.logo img{
+        height:50px;
+    }
+    .header-btn{
+        font-size:1rem;
+        border-bottom-width:1px;
+    }
+    .content-1.container{
+        padding:0 12px;
+    }
+    .text-banner-1{
+        margin-top:0;
+    }
+    .text-banner-1 h1{
+        font-size:1.55rem;
+        margin-bottom:12px;
+        line-height:1.15;
+    }
+    .text-banner-1 p{
+        font-size:.98rem;
+        margin-bottom:10px;
+        line-height:1.5;
+    }
+    .text-banner-1 b{
+        font-weight:700;
+    }
+    .service-btn{
+        display:none;
+    }
+}
+@media (max-width:420px){
+    .text-banner-1 h1{
+        font-size:1.4rem;
+    }
+    .text-banner-1 p{
+        font-size:.95rem;
     }
 }

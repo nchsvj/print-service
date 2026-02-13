@@ -150,4 +150,19 @@
     .service-card img {
         height: 220px;
     }
+
+    .adv-grid {
+        grid-template-columns:1fr;
+        gap: 35px;
+    }
+
+    .adv-item:nth-child(4),
+    .adv-item:nth-child(5) {
+        grid-column: auto;
+    }
+
+    .adv-item {
+        font-size: 1.15rem;
+        letter-spacing: 2px;
+    }
 }

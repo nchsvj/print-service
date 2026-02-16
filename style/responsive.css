@@ -151,6 +151,22 @@
         height: 220px;
     }
 
+    .service-price {
+        padding: 16px;
+    }
+
+    .service-price .price-title {
+        font-size:1rem;
+    }
+
+    .service-price .price-list {
+        font-size:0.95rem;
+    }
+
+    .service-title {
+        font-size: 0.95rem;
+    }
+
     .adv-grid {
         grid-template-columns:1fr;
         gap: 35px;

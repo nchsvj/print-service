@@ -1,0 +1,207 @@
+{
+  "digital_print": {
+    "color_print": {
+      "title": "Распечатка цветная",
+      "items": [
+        {
+          "label": "A4",
+          "price_from": 200,
+          "currency": "₸"
+        },
+        {
+          "label": "A3",
+          "price_from": 500,
+          "currency": "₸"
+        }
+      ]
+    },
+
+    "bw_print": {
+      "title": "Ч/Б",
+      "items": [
+        {
+          "label": "А4 - до 10 стр.",
+          "price": 100,
+          "currency": "₸"
+        },
+        {
+          "label": "А4 - от 10 до 50стр.",
+          "price": 50,
+          "currency": "₸"
+        },
+        {
+          "label": "А4 - от 50 до 100стр.",
+          "price": 45,
+          "currency": "₸"
+        }
+      ]
+    },
+
+    "copy_scan": {
+      "title": "Копирование",
+      "items": [
+        {
+          "label": "Копирование (авт.)",
+          "price": 100,
+          "currency": "₸"
+        },
+        {
+          "label": "Копирование (руч.)",
+          "price": 150,
+          "currency": "₸"
+        }
+      ]
+    },
+
+    "lamination": {
+      "title": "Ламинация",
+      "items": [
+        {
+          "label": "A4",
+          "price_from": 600,
+          "currency": "₸"
+        },
+        {
+          "label": "A3",
+          "price_from": 1300,
+          "currency": "₸"
+        }
+      ]
+    },
+
+    "binding": {
+      "title": "Переплёт документов",
+      "items": [
+        {
+          "label": "Переплет (пласт. пружинка)",
+          "price_from": 1500,
+          "currency": "₸"
+        },
+        {
+          "label": "Переплет (металл пружинка)",
+          "price_from": 1500,
+          "currency": "₸"
+        },
+        {
+          "label": "Кольцевой переплет",
+          "price_from": 3500,
+          "currency": "₸"
+        },
+        {
+          "label": "Твердый/мягкий переплет",
+          "price_from": 5000,
+          "currency": "₸"
+        },
+        {
+          "label": "Переплет металл канал",
+          "price_from": 4500,
+          "currency": "₸"
+        }
+      ]
+    }
+  },
+
+  "sublimation_print": {
+    "business_cards": {
+      "title": "Визитки",
+      "items": [
+        {
+          "label": "Односторонний",
+          "price": 30,
+          "currency": "₸"
+        },
+        {
+          "label": "Двухсторонний",
+          "price": 50,
+          "currency": "₸"
+        }
+      ]
+    },
+
+    "brochures": {
+      "title": "Брошюры",
+      "items": []
+    },
+
+    "flyers": {
+      "title": "Листовки",
+      "items": []
+    },
+
+    "menu": {
+      "title": "Меню",
+      "items": []
+    },
+
+    "invitations": {
+      "title": "Приглашения",
+      "items": []
+    },
+
+    "postcards": {
+      "title": "Открытки",
+      "items": []
+    },
+
+    "certificates": {
+      "title": "Сертификаты",
+      "items": []
+    }
+  },
+
+  "photo": {
+    "docs_photo": {
+      "title": "Фото на документы",
+      "items": []
+    },
+
+    "visa_photo": {
+      "title": "Фото на визу",
+      "items": []
+    },
+
+    "album": {
+      "title": "Альбом",
+      "items": []
+    }
+  },
+
+  "stamps": {
+    "stamps_making": {
+      "title": "Печати",
+      "items": []
+    }
+  },
+
+  "repair": {
+    "pc_laptop_repair": {
+      "title": "Ремонт пк/ноут",
+      "items": []
+    },
+
+    "pc_laptop_service": {
+      "title": "Обслуживание пк/ноут",
+      "items": []
+    },
+
+    "pc_laptop_cleaning": {
+      "title": "Чистка пк/ноут",
+      "items": []
+    },
+
+    "printer_repair": {
+      "title": "Ремонт принтеров",
+      "items": []
+    },
+
+    "windows_install": {
+      "title": "Переустановка Windows",
+      "items": []
+    },
+
+    "cartridge_refill": {
+      "title": "Заправка картриджей",
+      "items": []
+    }
+  }
+}

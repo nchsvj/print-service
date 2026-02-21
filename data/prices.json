@@ -203,5 +203,76 @@
       "title": "Заправка картриджей",
       "items": []
     }
+  },
+
+  "record": {
+    "burning_discs_cd": {
+      "title": "Формат записи CD",
+      "items": [
+        {
+          "label": "CD-R 24x (одноразовая запись)",
+          "price": null,
+          "currency": "₸"
+        },
+
+        {
+          "label": "CD-RW 16x (перезаписываемый)",
+          "price": null,
+          "currency": "₸"
+        }
+      ]
+    },
+
+    "burning_discs_dvd":{
+      "title": "Формат записи DVD",
+      "items": [
+        {
+          "label": "DVD+R 8x (одноразовая запись)",
+          "price": null,
+          "currency": null
+        },
+
+        {
+          "label": "DVD-R DL 6x (двухслойный, одноразовая запись)",
+          "price": null,
+          "currency": null
+        },
+
+        {
+          "label": "DVD-RW 6x (перезаписываемый)",
+          "price": null,
+          "currency": null
+        },
+
+        {
+          "label": "DVD+RW 8x (перезаписываемый)",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+
+    "burning_discs_br":{
+      "title": "Формат записи Blu-ray",
+      "items": [
+        {
+          "label": "BD 4x (запись Blu-ray)",
+          "price": null,
+          "currency": null
+        },
+
+        {
+          "label": "BD-R (одноразовая запись)",
+          "price": null,
+          "currency": null
+        },
+
+        {
+          "label": "BD-RE / BD-RW (перезаписываемый Blu-ray)",
+          "price": null,
+          "currency": null
+        }
+      ]
+    }
   }
 }

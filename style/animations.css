@@ -1,0 +1,58 @@
+:root {
+    --reveal-duration: 700ms;
+    --reveal-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+    --reveal-distance: 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translate3d(0, var(--reveal-distance), 0);
+    transition: opacity var(--reveal-duration) var(--reveal-ease), transform var(--reveal-duration) var(--reveal-ease);
+    will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.reveal--up {transform: translate3d(0, var(--reveal-distance), 0);}
+.reveal--down {transform: translate3d(0, calc(var(--reveal-distance) * -1), 0);}
+.reveal--left {transform: translate3d(var(--reveal-distance), 0, 0);}
+.reveal--right {transform: translate3d(calc(var(--reveal-distance) * -1), 0, 0);}
+
+.reveal--zoom {
+    transform: scale(0.96);
+}
+
+.reveal--zoom.is-visible {
+    transform: scale(1);
+}
+
+.reveal--fade {
+    transform: none;
+}
+
+.reveal[data-stagger] {
+    transition-delay: var(--d, 0ms);
+}
+
+.service-card.reveal.is-visible img {}
+
+.reveal--title {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+}
+
+.reveal--title.is-visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}

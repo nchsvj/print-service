@@ -2,6 +2,7 @@
     --reveal-duration: 700ms;
     --reveal-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
     --reveal-distance: 24px;
+    --d: 0ms,
 }
 
 @media (prefers-reduced-motion: reduce) {

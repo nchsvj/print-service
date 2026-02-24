@@ -14,7 +14,9 @@ body {
     right: 0;
     z-index: 1000;
     background: #FFFFFF;
-    transition: box-shadow .2s ease, backdrop-filter .2s ease, background .2s ease;
+    transition: opacity 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow .2s ease, backdrop-filter .2s ease, background .2s ease;
+    opacity: 0;
+    transform: translateY(-12px);
 }
 
 .header {
@@ -42,6 +44,11 @@ body {
 #header.is-scrolled.logo,
 #header.is-scrolled.logo img {
     height: 46px;
+}
+
+#header.is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .logo {

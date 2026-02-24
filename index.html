@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/animations.css">
 </head>
 <body>
 
@@ -44,13 +45,13 @@
     <section class="img-banner-block">
         <img src="content/banner-img.png" alt="Banner">
         <div class="banner-content container">
-            <h1 class="banner-title">Print &amp; Service</h1>
-            <p class="banner-subtitle">Ваш партнер по полиграфическим услугам</p>
-            <a class="banner-link" href="https://wa.me/+77765482877?text=Здравствуйте! Пишу вам с сайта, хотел бы заказать у вас услугу.">СВЯЗАТЬСЯ С НАМИ<span class="banner-arrow">→</span></a>
+            <h1 class="banner-title reveal reveal--title">Print &amp; Service</h1>
+            <p class="banner-subtitle reveal reveal--fade">Ваш партнер по полиграфическим услугам</p>
+            <a class="banner-link reveal reveal--up" href="https://wa.me/+77765482877?text=Здравствуйте! Пишу вам с сайта, хотел бы заказать у вас услугу.">СВЯЗАТЬСЯ С НАМИ<span class="banner-arrow">→</span></a>
         </div>
     </section>
 
-    <div class="content-1 container">
+    <div class="content-1 container reveal reveal--up">
         <div class="text-banner-1">
             <h1>О КОМПАНИИ</h1>
             <p>Print & Service — это надёжный сервисный центр и полиграфическая компания,
@@ -77,11 +78,11 @@
 
     <div id="uslugi"></div>
     <div class="content-2 container">
-        <h1>НАШИ УСЛУГИ</h1>
-        <h2>ЦИФРОВАЯ ПЕЧАТЬ</h2>
+        <h1 class="reveal reveal--title" data-once>НАШИ УСЛУГИ</h1>
+        <h2 class="reveal reveal--fade" data-once>ЦИФРОВАЯ ПЕЧАТЬ</h2>
 
-        <div class="service-block">
-            <div class="service-card" data-price-key="digital_print.color_print">
+        <div class="service-block" data-stagger-group data-stagger-base="90" data-stagger-start="0">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="digital_print.color_print">
                 <img src="content/cif-print-1.png" alt="Печать">
                 <p class="service-title">РАСПЕЧАТКА ЦВЕТНАЯ/ЛАЗЕРНАЯ/СТРУЙНАЯ (ФОРМАТЫ A4, A3, A5, A6)</p>
 
@@ -91,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="digital_print.bw_print">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="digital_print.bw_print">
                 <img src="content/cif-print-2.png" alt="Печать">
                 <p class="service-title">РАСПЕЧАТКА ЧЕРНО-БЕЛАЯ</p>
 
@@ -101,7 +102,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="digital_print.copy_scan">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="digital_print.copy_scan">
                 <img src="content/cif-print-3.png" alt="Печать">
                 <p class="service-title">КОПИРОВАНИЕ / СКАНИРОВАНИЕ</p>
 
@@ -111,7 +112,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="digital_print.lamination">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="digital_print.lamination">
                 <img src="content/cif-print-4.png" alt="Печать">
                 <p class="service-title">ЛАМИНАЦИЯ A4, A3, A5, A6</p>
 
@@ -121,7 +122,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="digital_print.binding">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="digital_print.binding">
                 <img src="content/cif-print-5.png" alt="Печать">
                 <p class="service-title">ПЕРЕПЛЁТ ДОКУМЕНТОВ</p>
 
@@ -134,10 +135,10 @@
     </div>
 
     <div class="content-2 container">
-        <h2>СУБЛИМАЦИОННАЯ ПЕЧАТЬ</h2>
+        <h2 class="reveal reveal--fade" data-once>СУБЛИМАЦИОННАЯ ПЕЧАТЬ</h2>
 
-        <div class="service-block">
-            <div class="service-card" data-price-key="sublimation_print.business_cards">
+        <div class="service-block" data-stagger-group data-stagger-base="90" data-stagger-start="0">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="sublimation_print.business_cards">
                 <img src="content/sub-1.png" alt="Суб печать">
                 <p class="service-title">ВИЗИТКИ</p>
 
@@ -147,7 +148,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="sublimation_print.brochures">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="sublimation_print.brochures">
                 <img src="content/sub-2.png" alt="Суб печать">
                 <p class="service-title">БРОШЮРЫ</p>
 
@@ -157,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="sublimation_print.flyers">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="sublimation_print.flyers">
                 <img src="content/sub-3.png" alt="Суб печать">
                 <p class="service-title">ЛИСТОВКИ</p>
 
@@ -167,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="sublimation_print.menu">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="sublimation_print.menu">
                 <img src="content/sub-4.png" alt="Суб печать">
                 <p class="service-title">МЕНЮ</p>
 
@@ -177,7 +178,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="sublimation_print.invitations">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="sublimation_print.invitations">
                 <img src="content/sub-5.png" alt="Суб печать">
                 <p class="service-title">ПРИГЛАШЕНИЯ</p>
 
@@ -187,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="sublimation_print.postcards">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="sublimation_print.postcards">
                 <img src="content/sub-6.png" alt="Суб печать">
                 <p class="service-title">ОТКРЫТКИ</p>
 
@@ -197,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="service-card service-center" data-price-key="sublimation_print.certificates">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="sublimation_print.certificates">
                 <img src="content/sub-7.png" alt="Суб печать">
                 <p class="service-title">СЕРТИФИКАТЫ</p>
 
@@ -212,10 +213,10 @@
     </div>
 
     <div class="content-2 container">
-        <h2>ФОТО</h2>
+        <h2 class="reveal reveal--fade" data-once>ФОТО</h2>
 
-        <div class="service-block">
-            <div class="service-card" data-price-key="photo.docs_photo">
+        <div class="service-block" data-stagger-group data-stagger-base="90" data-stagger-start="0">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="photo.docs_photo">
                 <img src="content/photo-1.png" alt="Фото">
                 <p class="service-title">Фото на документы</p>
 
@@ -225,7 +226,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="photo.visa_photo">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="photo.visa_photo">
                 <img src="content/photo-2.png" alt="Фото">
                 <p class="service-title">Фото на визу</p>
 
@@ -235,7 +236,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="photo.album">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="photo.album">
                 <img src="content/photo-3.png" alt="Фото">
                 <p class="service-title">Альбом на заказ</p>
 
@@ -248,10 +249,10 @@
     </div>
 
     <div class="content-2 container">
-        <h2>ПЕЧАТЬ</h2>
+        <h2 class="reveal reveal--fade" data-once>ПЕЧАТЬ</h2>
 
-        <div class="service-block">
-            <div class="service-card" data-price-key="stamps.stamps_making">
+        <div class="service-block" data-stagger-group data-stagger-base="90" data-stagger-start="0">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="stamps.stamps_making">
                 <img src="content/pechat-1.png" alt="Печать">
                 <p class="service-title">Изготовление печатей</p>
 
@@ -264,10 +265,10 @@
     </div>
 
     <div class="content-2 container" style="margin-bottom: 50px">
-        <h2>РЕМОНТ</h2>
+        <h2 class="reveal reveal--fade" data-once>РЕМОНТ</h2>
 
-        <div class="service-block">
-            <div class="service-card" data-price-key="repair.pc_laptop_repair">
+        <div class="service-block" data-stagger-group data-stagger-base="90" data-stagger-start="0">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="repair.pc_laptop_repair">
                 <img src="content/repair-1.png" alt="Ремонт">
                 <p class="service-title">Ремонт пк и ноутбуков</p>
 
@@ -277,7 +278,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="repair.pc_laptop_service">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="repair.pc_laptop_service">
                 <img src="content/repair-2.png" alt="Ремонт">
                 <p class="service-title">Обслуживание пк и ноутбуков</p>
 
@@ -287,7 +288,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="repair.pc_laptop_cleaning">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="repair.pc_laptop_cleaning">
                 <img src="content/repair-3.png" alt="Ремонт">
                 <p class="service-title">Чистка пк и ноутбуков</p>
 
@@ -297,7 +298,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="repair.printer_repair">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="repair.printer_repair">
                 <img src="content/repair-4.png" alt="Ремонт">
                 <p class="service-title">Ремонт принтеров</p>
 
@@ -307,7 +308,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="repair.windows_install">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="repair.windows_install">
                 <img src="content/repair-5.png" alt="Ремонт">
                 <div class="service-price">
                     <div class="price-title">Переустановка Windows</div>
@@ -315,7 +316,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="repair.cartridge_refill">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="repair.cartridge_refill">
                 <img src="content/repair-6.png" alt="Ремонт">
                 <p class="service-title">Заправка картриджей</p>
 
@@ -328,10 +329,10 @@
     </div>
 
     <div class="content-2 container" style="margin-bottom: 50px">
-        <h2>ЗАПИСЬ/ПЕРЕЗАПИСЬ ДИСКОВ</h2>
+        <h2 class="reveal reveal--fade" data-once>ЗАПИСЬ/ПЕРЕЗАПИСЬ ДИСКОВ</h2>
 
-        <div class="service-block">
-            <div class="service-card" data-price-key="record.burning_discs_cd">
+        <div class="service-block" data-stagger-group data-stagger-base="90" data-stagger-start="0">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="record.burning_discs_cd">
                 <img src="content/zapis-1.png" alt="Запись">
                 <p class="service-title">Формат записи CD</p>
 
@@ -341,7 +342,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="record.burning_discs_dvd">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="record.burning_discs_dvd">
                 <img src="content/zapis-2.jpg" alt="Запись">
                 <p class="service-title">Формат записи DVD</p>
 
@@ -351,7 +352,7 @@
                 </div>
             </div>
 
-            <div class="service-card" data-price-key="record.burning_discs_br">
+            <div class="service-card reveal reveal--zoom" data-stagger data-once data-price-key="record.burning_discs_br">
                 <img src="content/zapis-3.png" alt="Запись">
                 <p class="service-title">Формат записи Blu-ray</p>
 
@@ -364,41 +365,41 @@
     </div>
 
     <div class="content-3 container" style="margin-bottom: 50px">
-        <h1 class="adv-title">НАШИ ПРЕИМУЩЕСТВА</h1>
+        <h1 class="adv-title reveal reveal--title" data-once>НАШИ ПРЕИМУЩЕСТВА</h1>
 
-        <div class="adv-grid">
-            <div class="adv-item">КАЧЕСТВО ПЕЧАТИ</div>
-            <div class="adv-item">ОПЕРАТИВНОСТЬ</div>
-            <div class="adv-item">НАДЁЖНОСТЬ</div>
-            <div class="adv-item">ШИРОКИЙ СПЕКТР УСЛУГ</div>
-            <div class="adv-item">ВЫГОДНЫЕ ЦЕНЫ</div>
+        <div class="adv-grid" data-stagger-group data-stagger-base="120">
+            <div class="adv-item reveal reveal--up" data-stagger data-once>КАЧЕСТВО ПЕЧАТИ</div>
+            <div class="adv-item reveal reveal--up" data-stagger data-once>ОПЕРАТИВНОСТЬ</div>
+            <div class="adv-item reveal reveal--up" data-stagger data-once>НАДЁЖНОСТЬ</div>
+            <div class="adv-item reveal reveal--up" data-stagger data-once>ШИРОКИЙ СПЕКТР УСЛУГ</div>
+            <div class="adv-item reveal reveal--up" data-stagger data-once>ВЫГОДНЫЕ ЦЕНЫ</div>
         </div>
     </div>
 </main>
 
 <footer id="footer">
-    <div class="footer container">
-        <div class="footer-col">
+    <div class="footer container" data-stagger-group data-stagger-base="120">
+        <div class="footer-col reveal reveal--up" data-stagger data-once>
             <h3>АДРЕС</h3>
             <p>г. Астана, ул Мангилик ел, 29/2</p>
             <p>по Орынбора</p>
             <p>вход со стороны цветочного магазина Versal 2 этаж</p>
         </div>
 
-        <div class="footer-col">
+        <div class="footer-col reveal reveal--up" data-stagger data-once>
             <h3>НАВИГАЦИЯ</h3>
             <a href="" data-scroll="main">Главная</a>
             <a href="" data-scroll="uslugi">Услуги</a>
             <a href="#">Контакты</a>
         </div>
 
-        <div class="footer-col">
+        <div class="footer-col reveal reveal--up" data-stagger data-once>
             <h3>КОНТАКТЫ</h3>
             <a href="tel:+77765482877">+7-776-548-28-77</a>
             <a href="tel:+77087183889">+7-708-718-38-89</a>
         </div>
 
-        <div class="footer-col">
+        <div class="footer-col reveal reveal--up" data-stagger data-once>
             <h3>СОЦ СЕТИ</h3>
 
             <div class="footer-social">
@@ -421,5 +422,6 @@
 <script src="scripts/header.js"></script>
 <script src="scripts/home.js"></script>
 <script src="scripts/prices.js"></script>
+<script src="scripts/reveal.js"></script>
 </body>
 </html>

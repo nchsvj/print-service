@@ -15,6 +15,7 @@
     }
 
     setBodyOffset();
+    requestAnimationFrame(() => header.classList.add('is-visible'));
     onScroll();
 
     window.addEventListener('resize', setBodyOffset, { passive: true });

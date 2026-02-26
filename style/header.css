@@ -82,8 +82,8 @@ body {
 }
 
 .header-btn:hover {
-    color: #19449B;
-    border-bottom-color: #19449B;
+    color: #e62d2b;
+    border-bottom-color: #e62d2b;
 }
 
 .wa-btn {
@@ -92,12 +92,12 @@ body {
     justify-content: center;
     user-select: none;
     cursor: pointer;
-    background: #0088FF;
+    background: #1e3460;
     color: #FFFFFF;
     border-radius: 53px;
     width: 20%;
     padding: 14px 0;
-    border: 1px solid #0088FF;
+    border: 1px solid #1e3460;
     transition: all 0.3s ease;
     text-decoration: none;
     font-size: 1.1rem;
@@ -105,5 +105,5 @@ body {
 
 .wa-btn:hover {
     background: #FFFFFF;
-    color: #0088FF;
+    color: #1e3460;
 }

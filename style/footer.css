@@ -1,6 +1,6 @@
 #footer {
     margin-top: 80px;
-    background: #E9FDFF;
+    background: #1e3460;
     padding: 70px 0;
 }
 
@@ -16,20 +16,22 @@
     margin-bottom: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #6FA8FF;
 }
 
 .footer-col p,
 .footer-col a {
     font-size: 0.9rem;
-    color: #555;
+    color: #FAFAFA;
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
     line-height: 1.5;
+    transition: color 0.3s ease;
 }
 
 .footer-col a:hover {
-    color: #19449B;
+    color: #6FA8FF;
 }
 
 .footer-social {
@@ -48,6 +50,7 @@
     font-weight: 700;
     margin-bottom: 12px;
     text-transform: uppercase;
+    color: #6FA8FF;
 }
 
 .footer-map {

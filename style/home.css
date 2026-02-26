@@ -2,6 +2,7 @@
     position:relative;
     width:100%;
     overflow: hidden;
+    height: 91vh;
 }
 
 .img-banner-block img{
@@ -9,13 +10,15 @@
     height: 100%;
     object-fit: cover;
     display:block;
+    filter: brightness(0.75) contrast(1.1) saturate(0.95);
 }
 
 .img-banner-block::after{
     content:"";
     position:absolute;
     inset: 0;
-    background:rgba(10,18,40,0.55);
+    /*background:rgba(10,18,40,0.55);*/
+    background: linear-gradient(to right, rgba(30, 52, 96, 0.9), rgba(30, 52, 96, 0.6));
 }
 
 .banner-content {
@@ -72,17 +75,17 @@
 
 .banner-arrow {
     opacity: 0.9;
-    border-bottom-color: #1e3460;
+    border-bottom-color: #6FA8FF;
     transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .banner-link:hover {
     opacity: 0.9;
-    color: #1e3460;
+    color: #6FA8FF;
 }
 
 .banner-link:hover::after {
-    background: #1e3460;
+    background: #6FA8FF;
 }
 
 .banner-link:hover .banner-arrow {

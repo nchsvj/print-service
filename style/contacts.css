@@ -63,8 +63,8 @@
 
 .contact-link:hover {
     border-bottom-style: solid;
-    color: #19449B;
-    border-bottom-color: #19449B;
+    color: #1e3460;
+    border-bottom-color: #1e3460;
 }
 
 @media (max-width: 980px) {

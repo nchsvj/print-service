@@ -120,17 +120,35 @@
 
     "brochures": {
       "title": "Брошюры",
-      "items": []
+      "items": [
+        {
+          "label": "Изготовление брошюры",
+          "price": 8000,
+          "currency": "₸"
+        }
+      ]
     },
 
     "flyers": {
       "title": "Листовки",
-      "items": []
+      "items": [
+        {
+          "label": "Изготовление листовок",
+          "price": 110,
+          "currency": "₸"
+        }
+      ]
     },
 
     "menu": {
       "title": "Меню",
-      "items": []
+      "items": [
+        {
+          "label": "Изготовление меню",
+          "price": "от 800",
+          "currency": "₸"
+        }
+      ]
     },
 
     "invitations": {
@@ -145,19 +163,43 @@
 
     "certificates": {
       "title": "Сертификаты",
-      "items": []
+      "items": [
+        {
+          "label": "Изготовление грамот",
+          "price": "от 350",
+          "currency": "₸"
+        },
+
+        {
+          "label": "Изготовление дипломов",
+          "price": "от 350",
+          "currency": "₸"
+        }
+      ]
     }
   },
 
   "photo": {
     "docs_photo": {
       "title": "Фото на документы",
-      "items": []
+      "items": [
+        {
+          "label": "Фото на документы",
+          "price": 1500,
+          "currency": "₸"
+        }
+      ]
     },
 
     "visa_photo": {
       "title": "Фото на визу",
-      "items": []
+      "items": [
+        {
+          "label": "Фото на визу",
+          "price": 1500,
+          "currency": "₸"
+        }
+      ]
     },
 
     "album": {
@@ -169,7 +211,13 @@
   "stamps": {
     "stamps_making": {
       "title": "Печати",
-      "items": []
+      "items": [
+        {
+          "label": "Изготовление авт. печатей",
+          "price": 6000,
+          "currency": "₸"
+        }
+      ]
     }
   },
 
@@ -212,13 +260,13 @@
         {
           "label": "CD-R 24x (одноразовая запись)",
           "price": null,
-          "currency": "₸"
+          "currency": null
         },
 
         {
           "label": "CD-RW 16x (перезаписываемый)",
           "price": null,
-          "currency": "₸"
+          "currency": null
         }
       ]
     },

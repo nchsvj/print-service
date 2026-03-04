@@ -158,7 +158,13 @@
 
     "postcards": {
       "title": "Открытки",
-      "items": []
+      "items": [
+        {
+          "label": "Изготовление открыток",
+          "price": 1000,
+          "currency": "₸"
+        }
+      ]
     },
 
     "certificates": {

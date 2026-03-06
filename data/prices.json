@@ -74,12 +74,12 @@
       "items": [
         {
           "label": "Переплет (пласт. пружинка)",
-          "price_from": 1500,
+          "price_from": 1000,
           "currency": "₸"
         },
         {
           "label": "Переплет (металл пружинка)",
-          "price_from": 1500,
+          "price_from": 1100,
           "currency": "₸"
         },
         {
@@ -89,11 +89,11 @@
         },
         {
           "label": "Твердый/мягкий переплет",
-          "price_from": 5000,
+          "price_from": 3500,
           "currency": "₸"
         },
         {
-          "label": "Переплет металл канал",
+          "label": "Переплет metalbind",
           "price_from": 4500,
           "currency": "₸"
         }
@@ -145,7 +145,7 @@
       "items": [
         {
           "label": "Изготовление меню",
-          "price": "от 800",
+          "price_from": 800,
           "currency": "₸"
         }
       ]
@@ -172,13 +172,12 @@
       "items": [
         {
           "label": "Изготовление грамот",
-          "price": "от 350",
+          "price_from": 350,
           "currency": "₸"
         },
-
         {
           "label": "Изготовление дипломов",
-          "price": "от 350",
+          "price_from": 350,
           "currency": "₸"
         }
       ]
@@ -258,7 +257,7 @@
       "items": [
         {
           "label": "Заправка картриджей",
-          "price": "от 3500",
+          "price_from": 3500,
           "currency": "₸"
         }
       ]
@@ -274,7 +273,6 @@
           "price": null,
           "currency": null
         },
-
         {
           "label": "CD-RW 16x (перезаписываемый)",
           "price": null,
@@ -291,19 +289,16 @@
           "price": null,
           "currency": null
         },
-
         {
           "label": "DVD-R DL 6x (двухслойный, одноразовая запись)",
           "price": null,
           "currency": null
         },
-
         {
           "label": "DVD-RW 6x (перезаписываемый)",
           "price": null,
           "currency": null
         },
-
         {
           "label": "DVD+RW 8x (перезаписываемый)",
           "price": null,
@@ -320,13 +315,11 @@
           "price": null,
           "currency": null
         },
-
         {
           "label": "BD-R (одноразовая запись)",
           "price": null,
           "currency": null
         },
-
         {
           "label": "BD-RE / BD-RW (перезаписываемый Blu-ray)",
           "price": null,
@@ -341,7 +334,7 @@
       "items": [
         {
           "label": "Создание сайта",
-          "price": "от 30.000",
+          "price_from": 30.000,
           "currency": "₸"
         }
       ]

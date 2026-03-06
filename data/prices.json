@@ -334,7 +334,7 @@
       "items": [
         {
           "label": "Создание сайта",
-          "price_from": 30.000,
+          "price_from": "30.000",
           "currency": "₸"
         }
       ]

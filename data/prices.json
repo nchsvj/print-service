@@ -58,12 +58,12 @@
       "items": [
         {
           "label": "A4",
-          "price_from": 600,
+          "price_from": 400,
           "currency": "₸"
         },
         {
           "label": "A3",
-          "price_from": 1300,
+          "price_from": 1100,
           "currency": "₸"
         }
       ]
@@ -239,7 +239,13 @@
 
     "pc_laptop_cleaning": {
       "title": "Чистка пк/ноут",
-      "items": []
+      "items": [
+        {
+          "label": "Чистка пк/ноут",
+          "price_from": 13000,
+          "currency": "₸"
+        }
+      ]
     },
 
     "printer_repair": {

@@ -58,7 +58,7 @@
       "items": [
         {
           "label": "A4",
-          "price_from": 400,
+          "price_from": 500,
           "currency": "₸"
         },
         {
@@ -242,7 +242,7 @@
       "items": [
         {
           "label": "Чистка пк/ноут",
-          "price_from": 13000,
+          "price_from": "13.000",
           "currency": "₸"
         }
       ]
@@ -334,6 +334,7 @@
       ]
     }
   },
+
   "development": {
     "web_dev": {
       "title": "Создание сайта",
@@ -341,6 +342,29 @@
         {
           "label": "Создание сайта",
           "price_from": "30.000",
+          "currency": "₸"
+        }
+      ]
+    },
+    "design": {
+      "title": "Услуги дизайнера",
+      "items": [
+        {
+          "label": "Услуги дизайнера (в зависимости от сложности)",
+          "price_from": 5000,
+          "currency": "₸"
+        }
+      ]
+    }
+  },
+
+  "cutting": {
+    "plotter_cutting": {
+      "title": "Плоттерная резка",
+      "items": [
+        {
+          "label": "Плоттерная резка",
+          "price_from": 5000,
           "currency": "₸"
         }
       ]

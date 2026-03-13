@@ -23,7 +23,7 @@
         });
     }, {
         threshold: 0.15,
-        rootMargin: "0px 0px -10% 0px"
+        rootMargin: "0px 0px -7% 0px"
     });
 
     items.forEach(el => io.observe(el));
